@@ -40,7 +40,7 @@ img {
     max-width: 100%;
 }
 
-.conteiner {
+.container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0;
@@ -65,7 +65,7 @@ img {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.header-conteiner {
+.header-container {
     display: flex;
     justify-content: space-between;
 }
@@ -178,7 +178,7 @@ img {
     background-size: cover;
 }
 
-.hero-conteiner {
+.hero-container {
     text-align: center;
 }
 
@@ -213,7 +213,7 @@ img {
 }
 
 
-/* Моя кнопка */
+
 .hero-button {
     position: relative;
     text-decoration: none;
@@ -225,7 +225,7 @@ img {
     z-index: 1;
 }
 
-.hero-button .liquid {
+/* .hero-button .liquid {
     position: absolute;
     top: -80px;
     left: 0;
@@ -274,9 +274,9 @@ img {
     100% {
         transform: translate(-50%, -75%) rotate(360deg);
     }
-}
+} */
 
-/* pop-up окно */
+/*BACKDROP*/
 .backdrop {
     position: fixed;
     top: 0;
@@ -747,12 +747,12 @@ textarea {
 }
 
 
-/* футер */
+/* FOOTER */
 .footer {
     background-color: var(--title-text-color)
 }
 
-.footer-conteiner {
+.footer-container {
     display: flex;
     align-items: baseline;
 }
